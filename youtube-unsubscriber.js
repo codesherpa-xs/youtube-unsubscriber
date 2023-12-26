@@ -12,7 +12,7 @@ function myTimer() {
 
         setTimeout(function () {
 
-            var unSubBtn = document.getElementById("confirm-button").click();
+            var unSubBtn = document.getElementById("confirm-button").querySelector("[aria-label^='Unsubscribe']").click();
 
         }, 2000);
 
